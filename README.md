@@ -6,4 +6,4 @@ Binaries were compiled on M1 Max MacOS Tahoe 26.1.
 Can be wrong.
 ### Day 1
 password: 989
-
+password pt. 2: 5941
