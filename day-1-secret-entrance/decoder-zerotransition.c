@@ -14,9 +14,9 @@ int main() {
         int distance = atoi(line + 1);
         int zeros_this_rotation; //zero transition counter this rotation
         if (direction == 'R') {
-            zeros_this_rotation += (position + distance) / 100;
+            zeros_this_rotation = (position + distance) / 100;
         } else if (direction == 'L') {
-            zeros_this_rotation += (distance - position + 99) / 100;
+            zeros_this_rotation = (distance - position + 99) / 100;
         }
         zero_count += zeros_this_rotation;
         if (direction == 'L') {
