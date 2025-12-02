@@ -1,3 +1,5 @@
+// By Paul G, written in QR893 @ 33000ft / 2025-12-02
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
