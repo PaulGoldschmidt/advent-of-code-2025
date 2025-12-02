@@ -44,7 +44,7 @@ unsigned long long processRange(const char* range) { //compute full range to acc
 }
 
 int main() {    
-    const char* input = NULL;    
+    char* input = NULL;    
     // Read from file
     FILE* f = fopen("input.txt", "r");
     fseek(f, 0, SEEK_END);
