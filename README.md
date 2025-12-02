@@ -1,4 +1,4 @@
-# Advent of Code 2025
+# Advent of Code 2025: (C)asually (c)omputing C (c)ode
 Fun with the advent of code 2025. This is me just experimenting around in C. Next year Rust?
 Binaries were compiled on M1 Max MacOS Tahoe 26.1.
 
@@ -6,3 +6,4 @@ Binaries were compiled on M1 Max MacOS Tahoe 26.1.
 Can be wrong.
 ### Day 1
 password: 989
+
