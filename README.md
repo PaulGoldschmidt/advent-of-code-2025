@@ -8,3 +8,6 @@ Can be wrong.
 
 1. password: 989
 2. password pt. 2: 5941
+
+### Day 2
+1. Final Sum: 38158151648
