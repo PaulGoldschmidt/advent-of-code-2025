@@ -10,4 +10,5 @@ Can be wrong.
 2. password pt. 2: 5941
 
 ### Day 2
-1. Final Sum: 38158151648
+1. final sum: 38158151648
+2. final sum pt. 2: 45283684555
