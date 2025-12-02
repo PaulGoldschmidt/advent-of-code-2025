@@ -10,7 +10,6 @@ int main() {
     int zero_count = 0; //how often zero was hit
     char line[256]; //buffer
     while (fgets(line, sizeof(line), file)) {
-        line[strcspn(line, "\n")] = 0;
         char direction = line[0];
         int distance = atoi(line + 1);
         if (direction == 'L') {
