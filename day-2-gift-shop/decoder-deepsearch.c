@@ -29,7 +29,7 @@ bool isInvalidID(unsigned long long num) {
         }
     }
 
-    return true;
+    return false;
 }
 
 unsigned long long processRange(const char* range) { //compute full range to account for all invalid IDs, add to sum
