@@ -66,7 +66,7 @@ int main() {
         token = strtok(NULL, ",");
     }
 
-    printf("\final sum: %llu\n", totalSum);
+    printf("\nfinal sum: %llu\n", totalSum);
     free(inputCopy);
     free(input);
 
