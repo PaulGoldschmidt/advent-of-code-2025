@@ -29,7 +29,7 @@ int main(void) {
         total += joltage;
     }
     
-    printf("%lld\n", total);
+    printf("\nfinal sum: %llu\n", total);
     fclose(f);
     return 0;
 }
