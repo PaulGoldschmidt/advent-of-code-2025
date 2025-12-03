@@ -43,7 +43,7 @@ unsigned long long processRange(const char* range) { //compute full range to acc
     return sum;
 }
 
-int main() {    
+int main() {
     char* input = NULL;    
     // Read from file
     FILE* f = fopen("input.txt", "r");
