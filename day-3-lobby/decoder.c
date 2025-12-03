@@ -22,9 +22,9 @@ int main(void) {
     char line[10000];
     long long total = 0;
     FILE *f = fopen("input.txt", "r");
-    int len = strlen(line);
 
     while (fgets(line, sizeof(line), f)) {
+        int len = strlen(line);
         int joltage = calc_joltage(line, len);
         total += joltage;
     }
