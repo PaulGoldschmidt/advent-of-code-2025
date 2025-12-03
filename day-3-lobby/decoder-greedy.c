@@ -40,6 +40,9 @@ int main(void) {
 
     while (fgets(line, sizeof(line), f)) {
         int len = strlen(line);
+        while (len > 0 && isspace(line[len - 1])) {
+            line[--len] = '\0';
+        }
         long long joltage = calc_joltage(line, len);
         total += joltage;
     }
