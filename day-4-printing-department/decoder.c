@@ -48,6 +48,8 @@ int main() {
             }
         }
     }
+    
+    fclose(f);
 
     printf("\nfinal sum: %d\n", total);
 
