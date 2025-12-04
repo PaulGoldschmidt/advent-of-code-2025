@@ -4,7 +4,8 @@
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>
-int NUM_DIGITS = 12;
+
+#define NUM_DIGITS = 12;
 
 long long calc_joltage(const char *bank, int len) {
     char result[NUM_DIGITS + 1];
