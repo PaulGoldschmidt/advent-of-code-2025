@@ -20,3 +20,7 @@ Can be wrong.
 ### Day 4:
 1. final sum: 1553
 2. final sum pt.2 : 8442
+
+### Day 5:
+1. final sum: 661
+2. final sum pt.2: 359526404143208
