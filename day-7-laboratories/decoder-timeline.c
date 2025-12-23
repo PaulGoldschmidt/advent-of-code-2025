@@ -57,6 +57,6 @@ int main() {
         total += timelines[rows-1][c];
     }
     
-    printf("final sum: %lld\n", total);
+    printf("final sum pt.2: %lld\n", total);
     return 0;
 }
