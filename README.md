@@ -24,3 +24,11 @@ Can be wrong.
 ### Day 5:
 1. final sum: 661
 2. final sum pt.2: 359526404143208
+
+### Day 6:
+1. final sum: 5381996914800
+2. final sum pt.2: 9627174150897
+
+### Day 7:
+1. final sum: 1602
+2. final sum pt.2: 135656430050438
