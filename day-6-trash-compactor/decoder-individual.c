@@ -86,6 +86,6 @@ int main() {
         c = start - 1;
     }
     
-    printf("grand total: %lld\n", grand_total);
+    printf("final sum: %lld\n", grand_total);
     return 0;
 }

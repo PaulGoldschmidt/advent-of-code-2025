@@ -54,6 +54,6 @@ int main() {
         }
     }
     
-    printf("total splits: %d\n", total_splits);
+    printf("final sum: %d\n", total_splits);
     return 0;
 }
