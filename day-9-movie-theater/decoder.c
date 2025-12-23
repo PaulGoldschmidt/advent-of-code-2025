@@ -2,8 +2,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-static int tile_x[1000];
-static int tile_y[1000];
+static long long tile_x[10000];
+static long long tile_y[10000];
 int num_tiles = 0;
 
 int main() {
@@ -14,31 +14,31 @@ int main() {
         if (line[0] == '\n' || line[0] == '\0') {
             continue;
         }
-        int x, y;
-        sscanf(line, "%d,%d", &x, &y);
+        long long x, y;
+        sscanf(line, "%lld,%lld", &x, &y);
         tile_x[num_tiles] = x;
         tile_y[num_tiles] = y;
         num_tiles++;
     }
     fclose(f);
     
-    int total = 0; //var result (max area)
+    long long total = 0; //var result (max area)
     
     for (int i = 0; i < num_tiles; i++) {
         for (int j = i + 1; j < num_tiles; j++) {
-            int dx = tile_x[i] - tile_x[j];
+            long long dx = tile_x[i] - tile_x[j];
             if (dx < 0) dx = -dx;
-            int dy = tile_y[i] - tile_y[j];
+            long long dy = tile_y[i] - tile_y[j];
             if (dy < 0) dy = -dy;
-            int area = (dx + 1) * (dy + 1);
+            long long area = (dx + 1) * (dy + 1);
             if (area > total) {
                 total = area;
-                printf("tiles (%d,%d) and (%d,%d) -> area %d\n", 
-                       tile_x[i], tile_y[i], tile_x[j], tile_y[j], area);
+                printf("tiles (%lld,%lld) and (%lld,%lld) -> area %lld\n", 
+                       tile_x[i], tile_y[i], tile_x[j], tile_y[j], area); //debug because I'm stupid
             }
         }
     }
     
-    printf("\nfinal sum: %d\n", total);
+    printf("\nfinal sum: %lld\n", total);
     return 0;
 }
