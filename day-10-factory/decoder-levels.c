@@ -1,4 +1,4 @@
-// By Paul G, rewritten in ICE 572 // 2025-12-23
+// By Paul G, rewritten in ICE 572 // 2025-12-23 and 2025-12-27
 // Use rational Gaussian elimination; havely inspired by what Z3 does internally
 // to solve LPPs with given integer constraints
 
