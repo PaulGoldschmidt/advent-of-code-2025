@@ -7,7 +7,9 @@ This repo contains, as you can see, every day from Day 1 to Day 12 as a folder. 
 
 The solution always use system-level base dependencies.
 They will not be the fastest nor the cleanest solution.
-Use your own input file as they are different for different users.
+
+> [!TIP]
+> Use your own `input.txt`-files to have correct solutions for your szenario.
 
 ## Solutions with my given input files
 
