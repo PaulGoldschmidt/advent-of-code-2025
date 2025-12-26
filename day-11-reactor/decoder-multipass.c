@@ -1,4 +1,6 @@
-// By Paul G, rewritten in ICE 572 // 2025-12-23
+// By Paul G, rewritten in ICE 572 // 2025-12-27
+// Thanks to @TurtleSmoke https://github.com/TurtleSmoke/Advent-of-Code/blob/main/2025/day_11/main.py
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
