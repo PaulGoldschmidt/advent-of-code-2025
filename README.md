@@ -71,3 +71,6 @@ As this was my first AoC, I want to write down some learnings for the future.
 * Benchmarking can be done for all solutions with `hyperfine ./{EXECUTABLE} -N --warmup 50 --min-runs 100`
 * As C via the Arduino IDE was my first programming languge I really spend a lot of time with, programming in here was really nostalgic.
 * I used in some puzzles external help (day 10 pt. 2 / day 11 pt. 2 / day 12), so this is **not** a repo that should count toward any highscores or official counting.
+* [Great Resources for AoC's.](https://github.com/Bogdanp/awesome-advent-of-code)
+
+![I almost cried on day 10](lizard.gif)
