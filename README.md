@@ -49,6 +49,10 @@ Can be wrong.
 1. final sum: 539
 2. final sum pt.2: 413167078187872
 
+## Day 12:
+1. final sum: 521
+
+
 ## Highlights
 Some of my AoC journey:
 * Day 10 / Part 2 almost broke my spite, I was trying to brute-force the solution using a linear approximation. For some reason, the first 10 state machines were solving just fine, but the 11th machine was not bruteforceable or did not convolute in a static median. I let this bruteforcing algorithm run for three days (dec 23th-dec 25th) and could not find a solution for the 11th machine onewards. Then used a approch similar to what I would expect Z3 to do in this case and do a rational gaussian elimination approch.
