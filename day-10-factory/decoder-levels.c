@@ -11,6 +11,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <limits.h>
+#include <time.h>
 
 int buttons[20][12];
 int num_buttons;
@@ -132,6 +133,7 @@ void solve_lp() {
 }
 
 int main() {
+    clock_t start = clock();
     FILE *f = fopen("input.txt", "r");
     char line[1000];
     int total = 0;
@@ -183,5 +185,6 @@ int main() {
     }
     fclose(f);
     printf("\nfinal sum pt.2: %d\n", total);
+    printf("exec time: %.3f ms\n", (clock() - start) * 1000.0 / CLOCKS_PER_SEC);
     return 0;
 }
