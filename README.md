@@ -40,3 +40,7 @@ Can be wrong.
 ### Day 9:
 1. final sum: 4745816424
 2. final sum pt.2: 1351617690
+
+## Day 10:
+1. final sum: 399
+2. final sum pt.2: 15631
