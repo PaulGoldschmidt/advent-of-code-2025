@@ -46,8 +46,8 @@ Can be wrong.
 2. final sum pt.2: 15631
 
 ### Day 11:
-1.
-2.
+1. final sum: 539
+2. final sum pt.2: 413167078187872
 
 ## Highlights
 Some of my AoC journey:
