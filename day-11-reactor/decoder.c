@@ -3,7 +3,7 @@
 #include <string.h>
 
 char names[2000][8];
-int adj[2000][20], adj_n[2000]; // adjacencie list
+int adj[2000][20], adj_n[2000]; // adjacency list
 long long memo[2000];
 int n = 0;
 
