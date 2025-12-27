@@ -13,51 +13,51 @@ They will not be the fastest nor the cleanest solution.
 
 ## Solutions with my given input files
 
-### Day 1
+### [Day 1: Secret Entrance](day-1-secret-entrance)
 1. password: 989
 2. password pt. 2: 5941
 
-### Day 2
+### [Day 2: Gift Shop](day-2-gift-shop)
 1. final sum: 38158151648
 2. final sum pt. 2: 45283684555
 
-### Day 3
+### [Day 3: Lobby](day-3-lobby)
 1. final sum: 17427
 2. final sum pt. 2: 173161749617495
 
-### Day 4
+### [Day 4: Printing Department](day-4-printing-department)
 1. final sum: 1553
 2. final sum pt.2 : 8442
 
-### Day 5
+### [Day 5: Cafeteria](day-5-cafetaria)
 1. final sum: 661
 2. final sum pt.2: 359526404143208
 
-### Day 6
+### [Day 6: Trash Compactor](day-6-trash-compactor)
 1. final sum: 5381996914800
 2. final sum pt.2: 9627174150897
 
-### Day 7
+### [Day 7: Laboratories](day-7-laboratories)
 1. final sum: 1602
 2. final sum pt.2: 135656430050438
 
-### Day 8
+### [Day 8: Playground](day-8-playground)
 1. final sum: 112230
 2. final sum pt.2: 2573952864
 
-### Day 9
+### [Day 9: Movie Theater](day-9-movie-theater)
 1. final sum: 4745816424
 2. final sum pt.2: 1351617690
 
-### Day 10
+### [Day 10: Factory](day-10-factory)
 1. final sum: 399
 2. final sum pt.2: 15631
 
-### Day 11
+### [Day 11: Reactor](day-11-reactor)
 1. final sum: 539
 2. final sum pt.2: 413167078187872
 
-## Day 12
+### [Day 12: Christmas Tree Farm](day-12-christmas-tree-farm)
 1. final sum: 521
 
 
